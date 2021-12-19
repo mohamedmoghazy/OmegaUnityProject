@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  m_GroupName: UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4727b7fb4e81b5a4bbe7b66863ea0a3c
+  m_SerializeEntries:
+  - m_GUID: 36cf27a3926a2484ba52d3c30942fe54
+    m_Address: ZombunnyIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 36cf27a3926a2484ba52d3c30942fe54, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 36cf27a3926a2484ba52d3c30942fe54, type: 3}
+  - m_GUID: 408fdca826a9a4ea194308a75b6ed581
+    m_Address: HellephantIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 408fdca826a9a4ea194308a75b6ed581, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 408fdca826a9a4ea194308a75b6ed581, type: 3}
+  - m_GUID: 8664576dd5349b9449915508ba148517
+    m_Address: CubeIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a5fde8b81dfc341e98715fa5fee4f134
+    m_Address: ZomBearIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: a5fde8b81dfc341e98715fa5fee4f134, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: a5fde8b81dfc341e98715fa5fee4f134, type: 3}
+  - m_GUID: c88c022557ce419408f6241bbdea5a0e
+    m_Address: SlotItemUiDisplay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: e389952f46369d34ca4545269bca8276
+    m_Address: PlayerIcon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: e389952f46369d34ca4545269bca8276, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: e389952f46369d34ca4545269bca8276, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ce653d7c47d38d444b574f6ea6f2ff17, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 542a8ed7a9e328e47a584c7ce5f3e265, type: 2}
+    - {fileID: 11400000, guid: 3aac9f3bfdb860d4991f4357eb553975, type: 2}

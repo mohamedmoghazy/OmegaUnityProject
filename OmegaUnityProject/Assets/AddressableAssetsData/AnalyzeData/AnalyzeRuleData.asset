@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc77607c2a62ef48b8f7dec55cc6d91, type: 3}
+  m_Name: AnalyzeRuleData
+  m_EditorClassIdentifier: 
+  m_RuleToResults:
+  - RuleName: Check Duplicate Bundle Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Check Resources to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Check Resources to Addressable Duplicate Dependencies - No issues
+        found.
+      m_Severity: 0
+  - RuleName: Check Scene to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:gameassets_assets_all.bundle:Assets/Plugins/Skybox
+        add-on/Skyboxes/Morning.mat
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:gameassets_assets_all.bundle:Assets/OmegaGame/Content/UI/CubeIcon.png
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:ui_assets_all.bundle:Assets/OmegaGame/Content/Prefabs/UI/SlotItemUIDisplay.prefab
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:gameassets_assets_all.bundle:Assets/OmegaGame/Scripts/Types/SelectableItem.cs
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:gameassets_assets_all.bundle:Assets/Plugins/Skybox
+        add-on/Images/Skybox_3.psd
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:ui_assets_all.bundle:Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:ui_assets_all.bundle:Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+      m_Severity: 2
+    - m_ResultName: Assets/OmegaGame/Scenes/InGame.unity:ui_assets_all.bundle:Assets/OmegaGame/Scripts/UI/UiDisplays/SlotItemUiDisplay.cs
+      m_Severity: 2
+  - RuleName: Check Sprite Atlas to Addressable Duplicate Dependencies
+    Results:
+    - m_ResultName: No issues found
+      m_Severity: 0
+  - RuleName: Build Bundle Layout
+    Results:
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Player.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Morning.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/RedCube.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/UI/RedCubeIcon.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Cube.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Clouds.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Rain.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Sunset.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Thunderstorm.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Afternoon.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Sunrise.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Sunset2.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Evening.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/GameAssets/Snow.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/UI/CubeIcon.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/AddressableAssetsData/Weather.asset
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/Plugins/Skybox add-on/Skyboxes/Night.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Explicit:Assets/OmegaGame/Content/UI/PlayerIcon.png
+      m_Severity: 0
+    - m_ResultName: resourceconfigs_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Configs/CubeConfig.asset
+      m_Severity: 0
+    - m_ResultName: resourceconfigs_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Configs/RedCubeConfig.asset
+      m_Severity: 0
+    - m_ResultName: resourceconfigs_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Configs/PlayerConfig.asset
+      m_Severity: 0
+    - m_ResultName: ui_assets_all.bundle:Explicit:Assets/OmegaGame/Content/Prefabs/UI/SlotItemUIDisplay.prefab
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Animation/PlayerAnimationController.controller
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Materials/GunMaterial.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/GunDiffuse.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Models/Characters/Player.fbx
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/PlayerSpecular.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/PlayerNormals.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/GunNormals.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Materials/PlayerMaterial.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/PlayerOcclusion.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/PlayerDiffuse.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Audio/Effects/Player
+        GunShot.wav
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Materials/LineRenderMaterial.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/GunSpecular.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Textures/GunOcclusion.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Materials/FlareParticleMaterial.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/SurvivalShooter/Audio/Effects/Player
+        Hurt.wav
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_3.psd
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/OmegaGame/Content/Materials/Red.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/OmegaGame/Content/Materials/Green.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/FireExplosionEffects/Textures/SmokePuffNormalSheet.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Materials/CloudParticle.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/FireExplosionEffects/Textures/SmokePuffParticleSheet.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Models/ImpactSplash.FBX
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Textures/WaterRipplesParticle.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Textures/ImpactSplashParticle.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Textures/WaterDropParticle.tif
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Materials/WaterDropParticle.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Materials/WaterRipplesParticle.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_8.psd
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/EffectExamples/WaterEffects/Materials/StormCloudParticle.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_1.psd
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_6.psd
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_5.psd
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Particles/Materials/Materials/Snow.mat
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Particles/Materials/Textures/Snow.png
+      m_Severity: 0
+    - m_ResultName: gameassets_assets_all.bundle:Implicit:Assets/Plugins/Skybox add-on/Images/Skybox_10.psd
+      m_Severity: 0
+  - RuleName: UnityEditor.AddressableAssets.Build.AnalyzeRules.AnalyzeRule
+    Results: []

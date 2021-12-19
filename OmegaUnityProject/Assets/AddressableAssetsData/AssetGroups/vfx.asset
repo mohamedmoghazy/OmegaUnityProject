@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: vfx
+  m_EditorClassIdentifier: 
+  m_GroupName: vfx
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a2f122469e3e448f4bb535cda4a32a8e
+  m_SerializeEntries:
+  - m_GUID: 5052d8ced48e8459eb2f7cbd6638527f
+    m_Address: Rain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 796405482e233634f98681ddbf27bc8e
+    m_Address: Snow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8641a7fe9ef844c3abcdb81ddd25d298
+    m_Address: Thunderstorm
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 3154847348317792606, guid: 8641a7fe9ef844c3abcdb81ddd25d298,
+      type: 3}
+    m_TargetAsset: {fileID: 3154847348317792606, guid: 8641a7fe9ef844c3abcdb81ddd25d298,
+      type: 3}
+  - m_GUID: f38c5b1ba41f5419ea6700f2ac96ce4b
+    m_Address: Clouds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 6046739876994292189, guid: f38c5b1ba41f5419ea6700f2ac96ce4b,
+      type: 3}
+    m_TargetAsset: {fileID: 6046739876994292189, guid: f38c5b1ba41f5419ea6700f2ac96ce4b,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ce653d7c47d38d444b574f6ea6f2ff17, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 19fbc90130a7e4cb0be75591f1e6044d, type: 2}
+    - {fileID: 11400000, guid: bcb9faddfc0ab420a9bd4c049bd7a2db, type: 2}
