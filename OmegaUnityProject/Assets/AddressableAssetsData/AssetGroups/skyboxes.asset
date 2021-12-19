@@ -16,7 +16,43 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: d04e4a58bb02f447cb472c5298a48da2
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 4c604fadb6213f142bcbd919de845679
+    m_Address: Sunset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: 4c604fadb6213f142bcbd919de845679, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 4c604fadb6213f142bcbd919de845679, type: 2}
+  - m_GUID: 8bb49222f95d1e04f8598f01878da386
+    m_Address: Evening
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: 8bb49222f95d1e04f8598f01878da386, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 8bb49222f95d1e04f8598f01878da386, type: 2}
+  - m_GUID: 97e52f2b3c07d764a847285a73df4c6c
+    m_Address: Night
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: 97e52f2b3c07d764a847285a73df4c6c, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: 97e52f2b3c07d764a847285a73df4c6c, type: 2}
+  - m_GUID: eac271cce15ec5c429237ab6df479b04
+    m_Address: Morning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: eac271cce15ec5c429237ab6df479b04, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: eac271cce15ec5c429237ab6df479b04, type: 2}
+  - m_GUID: f4f57f7ac066c4740ac06e94accd43c3
+    m_Address: Sunrise
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: f4f57f7ac066c4740ac06e94accd43c3, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: f4f57f7ac066c4740ac06e94accd43c3, type: 2}
+  - m_GUID: fbae1295c96300b449806dbad968d464
+    m_Address: Afternoon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2100000, guid: fbae1295c96300b449806dbad968d464, type: 2}
+    m_TargetAsset: {fileID: 2100000, guid: fbae1295c96300b449806dbad968d464, type: 2}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ce653d7c47d38d444b574f6ea6f2ff17, type: 2}
   m_SchemaSet:

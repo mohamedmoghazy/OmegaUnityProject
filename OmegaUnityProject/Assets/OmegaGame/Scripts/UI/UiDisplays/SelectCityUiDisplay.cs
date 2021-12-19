@@ -61,7 +61,7 @@ public class SelectCityUiDisplay : UiDisplay
         var gmtTime = DateTimeOffset.FromUnixTimeSeconds(unixTime).DateTime.ToLocalTime();
         var localTimeHour = _weatherDataReader.GetCityLocalTimeHour(cityName, gmtTime);
         
-        PartOfDay currentPartOfDay = GetPartOfDay(localTimeHour);
+        var currentPartOfDay = GetPartOfDay(localTimeHour);
         tasksToRun.Add(SwitchSkyBox(currentPartOfDay));
         var weatherCode = GetWeatherCode(weatherData.weather.summary.title);
         tasksToRun.Add(AssignWeatherEffect(weatherCode));
@@ -94,8 +94,8 @@ public class SelectCityUiDisplay : UiDisplay
 
     private async Task SwitchSkyBox(PartOfDay currentPartOfDay)
     {
-        string materialName = currentPartOfDay.ToString();
-        Material skyboxMaterial = await Assets.LoadAssetAsync<Material>(materialName);
+        var materialName = currentPartOfDay.ToString();
+        var skyboxMaterial = await Assets.LoadAssetAsync<Material>(materialName);
         if (skyboxMaterial == null)
         {
             return;
@@ -132,6 +132,10 @@ public class SelectCityUiDisplay : UiDisplay
         else if (hours >= 14 && hours < 18)
         {
             partOfDay = PartOfDay.Afternoon;
+        }
+        else if (hours >= 18 && hours < 20)
+        {
+            partOfDay = PartOfDay.Sunset;
         }
         else
         {

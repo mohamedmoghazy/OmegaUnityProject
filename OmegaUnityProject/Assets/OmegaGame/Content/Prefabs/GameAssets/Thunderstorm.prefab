@@ -108,6 +108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &2029117950447089914 stripped
@@ -258,6 +263,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &3331969896067955908 stripped
@@ -483,6 +493,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &6196992505728274773 stripped
@@ -558,6 +573,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &6176455023107651541 stripped
@@ -708,6 +728,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &5298168933938804270 stripped
@@ -783,6 +808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thunderstorm-A
       objectReference: {fileID: 0}
+    - target: {fileID: 4336328517927340232, guid: 975549a4955c848bbaae5aa64ae55afd,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 760cb38a22b22154790d1a62e76c087e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 975549a4955c848bbaae5aa64ae55afd, type: 3}
 --- !u!4 &9119832503592947415 stripped
