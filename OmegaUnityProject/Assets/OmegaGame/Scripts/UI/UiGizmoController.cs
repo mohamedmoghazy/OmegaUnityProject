@@ -8,7 +8,8 @@ using UnityEngine.EventSystems;
 public class UiGizmoController : MonoBehaviour, IDisposable
 {
     [SerializeField] private RectTransform _gizmoPanelRectTransform = default;
-    [SerializeField] private DragableItem dragableItem = default;
+    [SerializeField] private DragableItem _dragableItem = default;
+    [SerializeField] private RotationHandler _rotationHandler = default;
     [SerializeField] private LayerMask _groundMask = default;
 
     private GameObjectController _currentSelectedController;
@@ -27,15 +28,16 @@ public class UiGizmoController : MonoBehaviour, IDisposable
         _onSwitchGameModeNotification = _gameDataReader?.OnSwitchGameModeNotification;
         _onSwitchGameModeNotification?.AddListener(OnSwitchGameMode);
         SetActive(false);
-        dragableItem.Init(OnDrag, OnPonterDwon, OnPointerUp);
+        _dragableItem.Init(OnDrag, OnPointerDown);
+        _rotationHandler.Init(OnRotationPointerUp);
     }
 
-    private void OnPointerUp(PointerEventData obj)
+    private void OnRotationPointerUp(PointerEventData pointerEventData)
     {
         _currentSelectedController.SetInitialRotation();
     }
 
-    private void OnPonterDwon(PointerEventData obj)
+    private void OnPointerDown(PointerEventData pointerEventData)
     {
         _scaleAmount = 0;
     }
@@ -43,7 +45,7 @@ public class UiGizmoController : MonoBehaviour, IDisposable
     private void SetActive(bool value)
     {
         _gizmoPanelRectTransform.gameObject.SetActive(value);
-        dragableItem.enabled = value;
+        _dragableItem.enabled = value;
     }
     
     private void OnSwitchGameMode(GameMode gameMode)

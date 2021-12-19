@@ -8,25 +8,18 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class DragableItem : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointerDownHandler
+public class DragableItem : MonoBehaviour, IDragHandler, IPointerDownHandler
 {
     private Action<PointerEventData> _onObjectUpdated;
     private Action<PointerEventData> _onPointerDown;
-    private Action<PointerEventData> _onPointerUp;
 
-    public void Init(Action<PointerEventData> onDragObject, Action<PointerEventData> onPointerDown, Action<PointerEventData> onPointerUp)
+    public void Init(Action<PointerEventData> onDragObject, Action<PointerEventData> onPointerDown)
     {
         _onObjectUpdated = onDragObject;
         _onPointerDown = onPointerDown;
-        _onPointerUp = onPointerUp;
     }
 
     public void OnDrag(PointerEventData eventData)
-    {
-        _onObjectUpdated?.Invoke(eventData);
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
     {
         _onObjectUpdated?.Invoke(eventData);
     }

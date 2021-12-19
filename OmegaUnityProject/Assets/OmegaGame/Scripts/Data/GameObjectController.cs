@@ -78,7 +78,10 @@ public class GameObjectController : MonoBehaviour, IDisposable
     
     public void UpdateRotation(float xDistance)
     {
-        transform.rotation = Quaternion.Euler((Vector3.down * (xDistance / Screen.width) * 360f) + _cashedGameObjectData.InitialRotation.eulerAngles);
+        var newQuatenion = Quaternion.Euler(Vector3.down * xDistance );
+           var current = newQuatenion * _cashedGameObjectData.InitialRotation;
+
+           transform.rotation = current;
     }
 
     private void OnSwitchGameMode(GameMode gameMode)

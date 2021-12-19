@@ -261,7 +261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gizmoPanelRectTransform: {fileID: 3536202217467373708}
-  dragableItem: {fileID: 1915070125}
+  _dragableItem: {fileID: 1915070125}
+  _rotationHandler: {fileID: 428859833}
   _groundMask:
     serializedVersion: 2
     m_Bits: 256
@@ -485,6 +486,7 @@ GameObject:
   - component: {fileID: 3536202217586024609}
   - component: {fileID: 3536202217586024608}
   - component: {fileID: 3536202217586024611}
+  - component: {fileID: 428859833}
   m_Layer: 5
   m_Name: RotateButton
   m_TagString: RotateGizmo
@@ -594,6 +596,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &428859833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3536202217586024613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d1a2ba248831b4c82cb34c4a97a4a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3934396055659887839
 GameObject:
   m_ObjectHideFlags: 0
