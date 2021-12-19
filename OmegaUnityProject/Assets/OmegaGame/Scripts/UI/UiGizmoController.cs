@@ -27,7 +27,12 @@ public class UiGizmoController : MonoBehaviour, IDisposable
         _onSwitchGameModeNotification = _gameDataReader?.OnSwitchGameModeNotification;
         _onSwitchGameModeNotification?.AddListener(OnSwitchGameMode);
         SetActive(false);
-        dragableItem.Init(OnDrag, OnPonterDwon);
+        dragableItem.Init(OnDrag, OnPonterDwon, OnPointerUp);
+    }
+
+    private void OnPointerUp(PointerEventData obj)
+    {
+        _currentSelectedController.SetInitialRotation();
     }
 
     private void OnPonterDwon(PointerEventData obj)
@@ -112,7 +117,8 @@ public class UiGizmoController : MonoBehaviour, IDisposable
     private void OnRotateButtonDragged(PointerEventData pointerEventData)
     {
         float xDistanceBetweenPressedPoints = (pointerEventData.position - pointerEventData.pressPosition).x;
-        _currentSelectedController.UpdateRotation(xDistanceBetweenPressedPoints);}
+        _currentSelectedController.UpdateRotation(xDistanceBetweenPressedPoints);
+    }
 
     private void OnMoveHandleDragged()
     {

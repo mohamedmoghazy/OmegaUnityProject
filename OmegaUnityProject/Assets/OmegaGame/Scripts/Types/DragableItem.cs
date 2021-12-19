@@ -12,11 +12,13 @@ public class DragableItem : MonoBehaviour, IDragHandler, IPointerUpHandler, IPoi
 {
     private Action<PointerEventData> _onObjectUpdated;
     private Action<PointerEventData> _onPointerDown;
+    private Action<PointerEventData> _onPointerUp;
 
-    public void Init(Action<PointerEventData> onDragObject, Action<PointerEventData> onPointerDown)
+    public void Init(Action<PointerEventData> onDragObject, Action<PointerEventData> onPointerDown, Action<PointerEventData> onPointerUp)
     {
         _onObjectUpdated = onDragObject;
         _onPointerDown = onPointerDown;
+        _onPointerUp = onPointerUp;
     }
 
     public void OnDrag(PointerEventData eventData)

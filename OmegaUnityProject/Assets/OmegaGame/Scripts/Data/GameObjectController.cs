@@ -78,16 +78,7 @@ public class GameObjectController : MonoBehaviour, IDisposable
     
     public void UpdateRotation(float xDistance)
     {
-        transform.rotation = Quaternion.Euler(Vector3.down * (xDistance / Screen.width) * 360f);
-        
-        _cashedGameObjectData.InitialRotation = new Quaternion
-        {
-            x = transform.rotation.x,
-            y = transform.rotation.y,
-            z = transform.rotation.z,
-            w = transform.rotation.w,
-            eulerAngles = transform.rotation.eulerAngles
-        };
+        transform.rotation = Quaternion.Euler((Vector3.down * (xDistance / Screen.width) * 360f) + _cashedGameObjectData.InitialRotation.eulerAngles);
     }
 
     private void OnSwitchGameMode(GameMode gameMode)
@@ -132,5 +123,19 @@ public class GameObjectController : MonoBehaviour, IDisposable
     public virtual void Dispose()
     {
         _onSwitchGameModeNotification?.RemoveListener(OnSwitchGameMode);
+    }
+
+    public void SetInitialRotation()
+    {
+        var rotation = gameObject.transform.rotation;
+        
+        _cashedGameObjectData.InitialRotation = new Quaternion
+        {
+            x = rotation.x,
+            y = rotation.y,
+            z = rotation.z,
+            w = rotation.w,
+            eulerAngles = rotation.eulerAngles
+        };
     }
 }
